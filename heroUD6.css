@@ -1,0 +1,65 @@
+/* Estilos para el encabezado tipo héroe */
+.hero {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+
+/* Estilo predeterminado para todas las secciones */
+main section {
+    display: none;
+    padding: 20px;
+}
+
+/* Estilo para mostrar la sección según la URL anclada */
+main section:target {
+    display: block;
+}
+
+/* Estilos del menú */
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilos del contenedor */
+.container {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin-top: -20px;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
